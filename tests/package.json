@@ -1,0 +1,13 @@
+{
+    "uid": "https://github.com/pinf/wildfire-js/tests/",
+    "name": "wildfire-js-tests",
+    "main": "all.js",
+    "mappings": {
+        "wildfire": {
+            "id": "github.com/pinf/wildfire-js/"
+        },
+        "modules": {
+            "id": "github.com/pinf/modules-js/"
+        }
+    }
+}

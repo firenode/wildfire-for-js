@@ -1,0 +1,31 @@
+{
+    "uid": "https://github.com/pinf/wildfire-js/",
+    "name": "wildfire-js",
+    "label": "Wildfire for JavaScript",
+    "description": "Wildfire Communication Library for JavaScript",
+    "homepage": "https://github.com/pinf/wildfire-js",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/pinf/wildfire-js.git"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com",
+            "web": "http://www.christophdorn.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "mappings": {
+        "modules": {
+            "id": "github.com/pinf/modules-js/"
+        }
+    }
+}

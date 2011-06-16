@@ -1,0 +1,36 @@
+{
+    "boot": "github.com/pinf/wildfire-js/tests/",
+    "packages": {
+        "github.com/pinf/wildfire-js/tests/": {
+            "locator": {
+                "location": "./"
+            }
+        },
+        "github.com/pinf/wildfire-js/": {
+            "locator": {
+                "location": "../"
+            }
+        },
+        "github.com/pinf/modules-js/": {
+            "locator": {
+                "archive": "https://github.com/pinf/modules-js/zipball/master"
+            }
+        },
+        "nodejs.org": {
+            "provider": "nodejs.org"
+        },
+        "github.com/kriskowal/q/": {
+            "locator": {
+                "archive": "https://github.com/kriskowal/q/zipball/v0.3.0"
+            },
+            "descriptor": {
+                "uid": "https://github.com/kriskowal/q/",
+                "dependencies": [
+                    {
+                        "id": "github.com/pinf/modules-js/"
+                    }
+                ]
+            }
+        }
+    }
+}
