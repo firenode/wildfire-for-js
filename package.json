@@ -1,31 +1,31 @@
 {
-    "uid": "https://github.com/firenode/wildfire-for-js/",
-    "name": "wildfire-for-js",
-    "version": "0.1.0",
-    "label": "Wildfire for JavaScript",
-    "description": "Wildfire Communication Library for JavaScript",
-    "homepage": "https://github.com/firenode/wildfire-for-js",
-    "maintainers": [
-        {
-            "name": "Christoph Dorn",
-            "email": "christoph@christophdorn.com",
-            "web": "http://www.christophdorn.com/"
-        }
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://www.opensource.org/licenses/mit-license.php"
-        }
-    ],
-    "main": "./lib/wildfire.js",
-    "directories": {
-        "lib": "./lib"
-    },
-    "dependencies": {
-        "fp-modules-for-nodejs": "'0.2.x"
-    },
-    "mappings": {
-        "modules": "./node_modules/fp-modules-for-nodejs"
+  "uid": "https://github.com/firenode/wildfire-for-js/",
+  "name": "wildfire-for-js",
+  "version": "0.1.1",
+  "label": "Wildfire for JavaScript",
+  "description": "Wildfire Communication Library for JavaScript",
+  "homepage": "https://github.com/firenode/wildfire-for-js",
+  "maintainers": [
+    {
+      "name": "Christoph Dorn",
+      "email": "christoph@christophdorn.com",
+      "web": "http://www.christophdorn.com/"
     }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "./lib/wildfire.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "fp-modules-for-nodejs": "'0.2.x"
+  },
+  "mappings": {
+    "modules": "./node_modules/fp-modules-for-nodejs"
+  }
 }
