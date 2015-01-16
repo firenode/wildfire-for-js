@@ -23,7 +23,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "fp-modules-for-nodejs": "'0.2.x"
+    "fp-modules-for-nodejs": "0.2.x"
   },
   "mappings": {
     "modules": "./node_modules/fp-modules-for-nodejs"
