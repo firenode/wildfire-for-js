@@ -27,5 +27,10 @@
   },
   "mappings": {
     "modules": "./node_modules/fp-modules-for-nodejs"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
   }
 }
