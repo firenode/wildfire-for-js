@@ -5,6 +5,9 @@
   "label": "Wildfire for JavaScript",
   "description": "Wildfire Communication Library for JavaScript",
   "homepage": "https://github.com/firenode/wildfire-for-js",
+  "pm": {
+    "publish": "npm"
+  },
   "maintainers": [
     {
       "name": "Christoph Dorn",
@@ -23,7 +26,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "fp-modules-for-nodejs": "0.2.x"
+    "fp-modules-for-nodejs": "^0.2.2"
   },
   "mappings": {
     "modules": "./node_modules/fp-modules-for-nodejs"
