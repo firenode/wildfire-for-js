@@ -1,7 +1,7 @@
 {
   "uid": "https://github.com/firenode/wildfire-for-js/",
   "name": "wildfire-for-js",
-  "version": "0.1.4",
+  "version": "0.2.0-pre.0",
   "label": "Wildfire for JavaScript",
   "description": "Wildfire Communication Library for JavaScript",
   "homepage": "https://github.com/firenode/wildfire-for-js",
@@ -22,18 +22,7 @@
     }
   ],
   "main": "./lib/wildfire.js",
-  "directories": {
-    "lib": "./lib"
-  },
   "dependencies": {
-    "fp-modules-for-nodejs": "^0.2.2"
-  },
-  "mappings": {
-    "modules": "./node_modules/fp-modules-for-nodejs"
-  },
-  "config": {
-    "pio.deploy.converter": {
-      "name": "nodejs-lib"
-    }
+    "md5.js": "^1.3.5"
   }
 }
